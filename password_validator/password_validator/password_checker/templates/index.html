@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page | Home Page</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        text-align: center;
+        color: white;
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBlP9OGbZjtVO0vTL2l9FMDLnEsf-eP_OP__TzWhf3HwKPKzO7aljA5z8p&s=10');
+        background-size: cover;
+    }
+    h1{color: green;}
+    h2{color: red;}
+    a{
+        margin: 10px;
+        text-decoration: none;
+        color: white;
+        background: green;
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+</style>
+<body>
+    <h1>This is my Index Page or Home Page</h1>
+    <h2>This project Created By Nrcm Students</h2>
+    <a href="{% url 'register' %}">Register</a>
+    <a href="{% url 'login' %}">Login</a>
+</body>
+</html>
